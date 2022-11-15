@@ -1,4 +1,4 @@
-# JAVA 2 06
+# JAVA 2 07
 예외처리
 
 ## 예외(Exception)
