@@ -187,3 +187,13 @@ Container.setLayout(null);
     ```<Containter>.add(<Component>, String name)```
 - CardLayout으로 설정된 컨테이너에 특정 컴포넌트 보여주기
     ```<CardLayout>.show(<Container>, String name)```
+- 여러 CardLayout을 넣었을 때 가장 먼저 넣은 CardLayout을 디폴트로 보여줌
+
+## WindowBuilder
+### WindowBuilder
+- GUI로 Swing의 레이아웃을 작성할 수 있는 플러그인
+
+### GroupLayout
+- 각 컴포넌트의 ```anchor point```를 어디에 둘 것인지를 설정함으로써 배치를 함
+- 창을 늘렸을때 ```anchor point```에 따라 해당 위치에 고정됨
+
